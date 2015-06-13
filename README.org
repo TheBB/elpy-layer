@@ -1,0 +1,28 @@
+#+TITLE: Elpy contribution layer for Spacemacs
+
+* Table of Contents                                                      :TOC@4:
+ - [[#description][Description]]
+ - [[#install][Install]]
+     - [[#layer][Layer]]
+
+* Description
+
+This layer adds support for the Python language via Elpy. *It is a work in
+progress, use with caution.*
+
+* Install
+
+** Layer
+
+To install, clone this repository to your =~/.emacs.d/private= directory. Note that
+the local working directory must be named =elpy=. E.g.
+
+=git clone git@github.com:TheBB/elpy-layer ~/.emacs.d/private=.
+
+Then, add the layer to your =~/.spacemacs=
+
+#+BEGIN_SRC emacs-lisp
+(setq-default dotspacemacs-configuration-layers '(elpy))
+#+END_SRC
+
+Make sure the regular =python= layer is not enabled.
