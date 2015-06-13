@@ -17,7 +17,7 @@ progress, use with caution.*
 To install, clone this repository to your =~/.emacs.d/private= directory. Note that
 the local working directory must be named =elpy=. E.g.
 
-=git clone git@github.com:TheBB/elpy-layer ~/.emacs.d/private=.
+=git clone git@github.com:TheBB/elpy-layer ~/.emacs.d/private/elpy=.
 
 Then, add the layer to your =~/.spacemacs=
 
