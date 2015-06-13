@@ -13,7 +13,11 @@
 (add-to-list 'package-archives
              '("elpy" . "http://jorgenschaefer.github.io/packages/"))
 
-(setq elpy-packages '(elpy))
+(setq elpy-packages
+      '(
+        company
+        elpy
+        ))
 
 (setq elpy-excluded-packages '())
 
